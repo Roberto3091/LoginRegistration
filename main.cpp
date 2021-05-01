@@ -39,8 +39,8 @@ int main()
     {
         string username, password;
 
-        cout << "Select a username: "; cin >> username;
-        cout << "Select a password: "; cin >> password;
+        cout << "Create a username: "; cin >> username;
+        cout << "Create a password: "; cin >> password;
 
         ofstream file;
         file.open(username + ".txt");
